@@ -83,6 +83,30 @@ body,
   align-content: space-between;
 }
 
+.our-locations {
+  margin-top: 2rem;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  /* display: flex;
+  align-content: center;
+  align-items: center; */
+}
+
+.location-details {
+  width: 300px;
+  margin: 40px;
+  color: seashell;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
 .footer {
   margin-top: 2rem;
+}
+
+.footer-contact {
+  height: 200px;
 }
