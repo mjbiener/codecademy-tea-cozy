@@ -7,7 +7,8 @@
 body,
 .mission,
 .main-header,
-.our-mission {
+.our-mission,
+.teas {
   color: seashell;
   background-color: black;
   font-family: Helvetica;
@@ -17,10 +18,21 @@ body,
 
 .main-header {
   height: 69px;
+  width: 100%;
   position: fixed;
   top: 0px;
   margin-left: 10px;
   display: flex;
+  align-content: space-between;
+}
+
+.main-header a {
+  color: seashell;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-decoration: underline;
 }
 
 .company-name {
@@ -50,4 +62,27 @@ body,
   text-align: center;
   width: 1200px;
   height: auto;
+}
+
+.teas {
+  width: 1000px;
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 2rem;
+}
+
+.tea-of-the-month {
+  width: 1000px;
+  text-align: center;
+}
+
+.tea-types {
+  width: 1000px;
+  margin-top: 2rem;
+  display: flex;
+  align-content: space-between;
+}
+
+.footer {
+  margin-top: 2rem;
 }
